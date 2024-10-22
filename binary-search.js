@@ -1,8 +1,13 @@
 const dictionary = require('./dictionary-long.js');
 
 function binarySearch(needle, haystack) {
-    //TODO Add your code here
+    for(i=0;i<haystack.length;i++){
+        if(haystack[i]==needle){
+            return true;
+        } 
+    }
     return false;
+    
 }
 
 console.log("Should all be true:")
